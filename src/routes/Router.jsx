@@ -6,7 +6,7 @@ import AuthRoute from "../components/routes/AuthRoute";
 
 // Pages
 import Home from "../pages/Home";
-// import LoginPage from "../pages/LoginPage";
+import LoginPage from "../pages/LoginPage";
 // import SignupPage from "../pages/SignupPage";
 
 const router = createBrowserRouter([
@@ -28,7 +28,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home />,
+        element: <LoginPage />,
       },
     ],
   },
